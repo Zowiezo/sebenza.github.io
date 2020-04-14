@@ -1,6 +1,3 @@
-
-/* Add a black background color to the top navigation */
-
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -34,7 +31,6 @@ body {
   /* Add an active class to highlight the current page */
   .topnav a.active {
     color: #f8ce00;
-
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -49,6 +45,7 @@ h1 {
   font-size:10em;
   text-align: right;
   color: #ffffff;
+  margin-top: 50px;
 }
 
 h2 {
@@ -84,11 +81,9 @@ h6 {
     font-size: 4em;
 }
 
-
  /* paragraph tags */
 
-p1 {
-  
+p1 { 
     text-align: left;
     float: right;
     margin: 200px;
@@ -96,15 +91,12 @@ p1 {
     font-size: xx-large;
     margin-top: -420px;
     color: #ffffff;
-
 }
 
 p2 {
     color: #f8ce00;
     font-weight: 600;
     font-size: xx-large;
-
-
 }
 
 p5 {
@@ -113,7 +105,6 @@ p5 {
   color: #000000;
   display: inline-block; 
   text-align: left;
-
 }
 
 p6 {
@@ -128,7 +119,7 @@ p6 {
 p3, p7, p10, p11, p13{
   
     font-weight: 400;
-    font-size: 21px;
+    font-size: 25px;
     color: #000000;
 
 
@@ -174,6 +165,7 @@ p19 {
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
+  margin-right: 100px;
 }
 
 p20{
@@ -226,7 +218,6 @@ p25 {
   display: inline-block;
 }
 
-
 .footer {
   position: fixed;
   left: 0;
@@ -246,19 +237,15 @@ p25 {
   position: absolute;
   right: -110px;
   top: auto;
-  
-
-  
   }
+
   .container {
-   
     color: #000000;
   }
 
 .background {
 background-image: url("./imgs/home/landing.png");
 }
-
 
 .greylines {
   position: absolute;
@@ -307,25 +294,25 @@ background-image: url("./imgs/home/landing.png");
 .wallet {
   position: absolute;
 left: 235px; 
-top: 90px;
+top: 80px;
 }
 
 .taxi {
   position: absolute;
 left: 500px; 
-top: -61px;
+top: -95px;
 }
 
 .phonething {
   position: absolute;
 left: 680px; 
-top: -210px;
+top: -260px;
 }
 
 .piething {
   position: absolute;
 left: 1000px; 
-top: -510px;
+top: -600px;
 }
 
 /* the text under the grey things */ 
@@ -339,31 +326,31 @@ top: -510px;
 .taxitext {
   position: relative;
   right: -850px;
-  top: 270px;
+  top: 250px;
 }
 
 .phonetext {
   position: relative;
   right: -1130px;
-  top: 150px;
+  top: 110px;
 }
 
 .pietext {
   position: relative;
   right: -1390px;
-  top: -180px;
+  top: -250px;
 }
 
 /* aim section */
 
-#backgroundaim {
-  position: fixed;
+.backgroundaim {
+  position: relative;
   background-image:url('../style/imgs/howSebenzaWorks1.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 1900px; 
   height: 1000px;
-}
+} 
 
 .nation {
   position: relative;
@@ -380,16 +367,27 @@ top: -510px;
   margin-top: 50px;
 }
 
-
-/* .vision {
+.vision {
   background-image:url('../style/imgs/Vision1.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  height: 100%;
+  width: 100%;
+  height: 1000px;
 }
- */
 
+.visiontext {
+  margin-top: 190px;
+  margin-right: 50px;
+}
+
+.middle {
+  margin-right: 22px;
+}
+
+.last {
+  margin-right: 75px;
+}
 
 /* form {
 }
