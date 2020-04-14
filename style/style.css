@@ -1,48 +1,67 @@
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  height:20%;
+  width: 20%;
+  }
+
+.yellownav {
+  display: inline-block;
+  vertical-align: top;
+  height:50px;
+  width: 100px;
+  float: right;
+}
 .topnav {
-    background-color: #000000;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    display: block;
-    color:#ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 5px;
-    margin-right: 25px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #fff9c4;
-    color: #000000;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    color: #f8ce00;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
+  background-color: #000000;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #fff176;
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: #f8ce00;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
 }
 
 /* heading tags */
 
 h1 {
   font-weight: 800;
-  font-size:10em;
+  font-size: 10em;
   text-align: right;
   color: #ffffff;
   margin-top: 50px;
@@ -62,11 +81,11 @@ h3 {
 }
 
 h4 {
-    color: #f8ce00;
-    font-weight: 800;
-    display: inline-block; 
-    text-align: left;
-    font-size: 6em;
+  color: #f8ce00;
+  font-weight: 800;
+  display: inline-block;
+  text-align: left;
+  font-size: 6em;
 }
 
 h5 {
@@ -76,34 +95,34 @@ h5 {
 }
 
 h6 {
-    color: #f8ce00;
-    font-weight: 800;
-    font-size: 4em;
+  color: #f8ce00;
+  font-weight: 800;
+  font-size: 4em;
 }
 
- /* paragraph tags */
+/* paragraph tags */
 
-p1 { 
-    text-align: left;
-    float: right;
-    margin: 200px;
-    font-weight: 400;
-    font-size: xx-large;
-    margin-top: -420px;
-    color: #ffffff;
+p1 {
+  text-align: left;
+  float: right;
+  margin: 200px;
+  font-weight: 400;
+  font-size: xx-large;
+  margin-top: -420px;
+  color: #ffffff;
 }
 
 p2 {
-    color: #f8ce00;
-    font-weight: 600;
-    font-size: xx-large;
+  color: #f8ce00;
+  font-weight: 600;
+  font-size: xx-large;
 }
 
 p5 {
   font-weight: 400;
   font-size: large;
   color: #000000;
-  display: inline-block; 
+  display: inline-block;
   text-align: left;
 }
 
@@ -111,25 +130,33 @@ p6 {
   font-weight: 800;
   font-size: large;
   color: #000000;
-  display: inline-block; 
+  display: inline-block;
   text-align: left;
 }
 
 
-p3, p7, p10, p11, p13{
-  
-    font-weight: 400;
-    font-size: 25px;
-    color: #000000;
+p3,
+p7,
+p10,
+p11,
+p13 {
+
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
 
 
 }
 
-p4,p8, p9, p12, p14 {
-  
-    font-weight: 800;
-    font-size: 25px;
-    color: #000000;
+p4,
+p8,
+p9,
+p12,
+p14 {
+
+  font-weight: 800;
+  font-size: 25px;
+  color: #000000;
 }
 
 p15 {
@@ -160,7 +187,7 @@ P18 {
 }
 
 p19 {
-  display: inline-block; 
+  display: inline-block;
   text-align: left;
   font-weight: 400;
   color: #ffffff;
@@ -168,84 +195,74 @@ p19 {
   margin-right: 100px;
 }
 
-p20{
-  display: inline-block; 
+p20 {
+  display: inline-block;
   text-align: left;
   color: #f8ce00;
   font-weight: 800;
   font-size: 27px;
 }
 
-p21, p22 {
-}
+p21,
+p22 {}
 
 p23 {
   text-align: right;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 p24 {
+  color: #f8ce00;
+  font-size: 26px;
+  font-weight: 800;
+  font-size: 27px;
 }
+
 p25 {
   color: #000000;
   font-weight: 800;
-  font-size: x-large;
+  font-size: 21px;
 }
 
-.wrapper {
+
+/* home page */
+.containerhome {
   position: relative;
-  width: 1250px;
-  margin: 0;
-  text-align: left;
-}
-
-.box {
-  position: relative;
-  width: 250px;
-  margin: 0 7px 15px 7px;
-  padding: 25px;
-  text-align: center;
-  background: #fff;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.yellow_box {
-  position: relative;
-  width: 248px;
-  height: 289px;
-  margin: 90px 40px 0px -25px;
-  background: #f8ce00;
-  display: inline-block;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #f8ce00;
+  
   color: white;
-  text-align: center;
+
 }
+
+.innerphonetext {
+  position: absolute;
+  margin-top:  -70px;
+  right: -50px;
+ }
 
 .phone {
   position: absolute;
-  right: -250px;
+  right: 0px;
+  margin-top: 150px;
 }
 
-.black_block {
-  position: absolute;
-  right: -110px;
-  top: auto;
-  }
+.home {
+  background-image: url("./imgs/Home2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1900px;
+  height: 1000px;
 
-  .container {
-    color: #000000;
-  }
 
-.background {
-background-image: url("./imgs/home/landing.png");
 }
+
+
+
+
+
+
+/* about us */
 
 .greylines {
   position: absolute;
@@ -253,18 +270,20 @@ background-image: url("./imgs/home/landing.png");
   left: -189px;
 }
 
-.container2, .container3, .container4 {
+.container2,
+.container3,
+.container4 {
   position: relative;
 }
 
 /* those grey things */
 
-.greycurve1{
+.greycurve1 {
   position: absolute;
   left: -235px;
 }
 
-.greycurve2{
+.greycurve2 {
   position: absolute;
   left: -235px;
   top: 100px;
@@ -286,36 +305,36 @@ background-image: url("./imgs/home/landing.png");
   position: relative;
   right: -550px;
   top: 160px;
-  
+
 }
 
 /* the four icons and the grey thing */
 
 .wallet {
   position: absolute;
-left: 235px; 
-top: 80px;
+  left: 235px;
+  top: 80px;
 }
 
 .taxi {
   position: absolute;
-left: 500px; 
-top: -95px;
+  left: 500px;
+  top: -95px;
 }
 
 .phonething {
   position: absolute;
-left: 680px; 
-top: -260px;
+  left: 680px;
+  top: -260px;
 }
 
 .piething {
   position: absolute;
-left: 1000px; 
-top: -600px;
+  left: 1000px;
+  top: -600px;
 }
 
-/* the text under the grey things */ 
+/* the text under the grey things */
 
 .wallettext {
   position: relative;
@@ -345,12 +364,12 @@ top: -600px;
 
 .backgroundaim {
   position: relative;
-  background-image:url('../style/imgs/howSebenzaWorks1.png');
+  background-image: url("./imgs/HowSebenzaWorks2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1900px; 
+  width: 1000px;
   height: 1000px;
-} 
+}
 
 .nation {
   position: relative;
@@ -362,13 +381,14 @@ top: -600px;
   margin-top: 300px;
 }
 
-.aim{
+.aim {
   position: relative;
   margin-top: 50px;
 }
 
+/* vision */
 .vision {
-  background-image:url('../style/imgs/Vision1.png');
+  background-image: url('../style/imgs/Vision1.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -389,30 +409,168 @@ top: -600px;
   margin-right: 75px;
 }
 
-/* form {
+/* blog */
+
+.wrapper {
+  position: relative;
+  width: 1250px;
+  margin: 0;
+  text-align: left;
 }
-input,
+
+.box {
+  position: relative;
+  width: 250px;
+  margin: 0 7px 15px 7px;
+  padding: 25px;
+  text-align: center;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.yellow_box {
+  position: relative;
+  width: 248px;
+  height: 289px;
+  margin: 90px 40px 0px -25px;
+  background: #f8ce00;
+  display: inline-block;
+}
+
+/* contact  */
+
+.head {
+  margin-left: 50px;
+}
+
+.contact {
+  background-color: #000000;
+}
+
+.contactustext {
+  text-align: left;
+  margin-right: 75px;
+}
+
+.lines {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.ctext {
+  margin-top: -900px;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+select,
 textarea {
- 
-  
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   box-sizing: border-box;
-  border: 1px solid #E8A187;
-  border-radius: 2.5px;
+  resize: vertical;
 }
-input,
+
+/* Style the label to display next to the inputs */
 label {
-  display: block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
-.form-group,
-.form-control {
-  
-  
+/* Style the submit button */
+input[type=submit] {
+  position: relative;
+  background-color: #f8ce00;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  float: right;
 }
 
-.form-control,
-.form-group {
- 
-  font-size: 20px;
-  color: #B86B77;
-} */
+/* Style the container */
+.containerform {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+  margin-right: 70px;
+  margin-left: 1170px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.col-75m {
+  float: left;
+  width: 75%;
+  margin-top: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+*/
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 26px;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 100%;
+  background-color: #f8ce00;
+  color: white;
+  text-align: center;
+}
