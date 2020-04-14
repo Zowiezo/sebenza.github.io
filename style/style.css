@@ -1,0 +1,420 @@
+
+/* Add a black background color to the top navigation */
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 25px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #fff9c4;
+    color: #000000;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: #f8ce00;
+
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+}
+
+/* heading tags */
+
+h1 {
+  font-weight: 800;
+  font-size:10em;
+  text-align: right;
+  color: #ffffff;
+}
+
+h2 {
+  color: #f8ce00;
+  font-weight: 800;
+  font-size: 8em;
+}
+
+h3 {
+  color: #f8ce00;
+  font-weight: 800;
+  font-size: 7em;
+  text-align: center;
+}
+
+h4 {
+    color: #f8ce00;
+    font-weight: 800;
+    display: inline-block; 
+    text-align: left;
+    font-size: 6em;
+}
+
+h5 {
+  color: #000000;
+  font-weight: 800;
+  font-size: 5em;
+}
+
+h6 {
+    color: #f8ce00;
+    font-weight: 800;
+    font-size: 4em;
+}
+
+
+ /* paragraph tags */
+
+p1 {
+  
+    text-align: left;
+    float: right;
+    margin: 200px;
+    font-weight: 400;
+    font-size: xx-large;
+    margin-top: -420px;
+    color: #ffffff;
+
+}
+
+p2 {
+    color: #f8ce00;
+    font-weight: 600;
+    font-size: xx-large;
+
+
+}
+
+p5 {
+  font-weight: 400;
+  font-size: large;
+  color: #000000;
+  display: inline-block; 
+  text-align: left;
+
+}
+
+p6 {
+  font-weight: 800;
+  font-size: large;
+  color: #000000;
+  display: inline-block; 
+  text-align: left;
+}
+
+
+p3, p7, p10, p11, p13{
+  
+    font-weight: 400;
+    font-size: 21px;
+    color: #000000;
+
+
+}
+
+p4,p8, p9, p12, p14 {
+  
+    font-weight: 800;
+    font-size: 25px;
+    color: #000000;
+}
+
+p15 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+}
+
+p16 {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 26px;
+  text-align: center;
+
+}
+
+p17 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+P18 {
+  color: #f8ce00;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+p19 {
+  display: inline-block; 
+  text-align: left;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+p20{
+  display: inline-block; 
+  text-align: left;
+  color: #f8ce00;
+  font-weight: 800;
+  font-size: 27px;
+}
+
+p21, p22 {
+}
+
+p23 {
+  text-align: right;
+}
+
+p24 {
+}
+p25 {
+  color: #000000;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.wrapper {
+  position: relative;
+  width: 1250px;
+  margin: 0;
+  text-align: left;
+}
+
+.box {
+  position: relative;
+  width: 250px;
+  margin: 0 7px 15px 7px;
+  padding: 25px;
+  text-align: center;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.yellow_box {
+  position: relative;
+  width: 248px;
+  height: 289px;
+  margin: 90px 40px 0px -25px;
+  background: #f8ce00;
+  display: inline-block;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8ce00;
+  color: white;
+  text-align: center;
+}
+
+.phone {
+  position: absolute;
+  right: -250px;
+}
+
+.black_block {
+  position: absolute;
+  right: -110px;
+  top: auto;
+  
+
+  
+  }
+  .container {
+   
+    color: #000000;
+  }
+
+.background {
+background-image: url("./imgs/home/landing.png");
+}
+
+
+.greylines {
+  position: absolute;
+  top: -253px;
+  left: -189px;
+}
+
+.container2, .container3, .container4 {
+  position: relative;
+}
+
+/* those grey things */
+
+.greycurve1{
+  position: absolute;
+  left: -235px;
+}
+
+.greycurve2{
+  position: absolute;
+  left: -235px;
+  top: 100px;
+}
+
+.greytag1 {
+  position: relative;
+  top: 260px;
+  right: -10px;
+}
+
+.greytag2 {
+  position: relative;
+  top: 360px;
+  right: -10px;
+}
+
+.missiontext {
+  position: relative;
+  right: -550px;
+  top: 160px;
+  
+}
+
+/* the four icons and the grey thing */
+
+.wallet {
+  position: absolute;
+left: 235px; 
+top: 90px;
+}
+
+.taxi {
+  position: absolute;
+left: 500px; 
+top: -61px;
+}
+
+.phonething {
+  position: absolute;
+left: 680px; 
+top: -210px;
+}
+
+.piething {
+  position: absolute;
+left: 1000px; 
+top: -510px;
+}
+
+/* the text under the grey things */ 
+
+.wallettext {
+  position: relative;
+  right: -550px;
+  top: 425px;
+}
+
+.taxitext {
+  position: relative;
+  right: -850px;
+  top: 270px;
+}
+
+.phonetext {
+  position: relative;
+  right: -1130px;
+  top: 150px;
+}
+
+.pietext {
+  position: relative;
+  right: -1390px;
+  top: -180px;
+}
+
+/* aim section */
+
+#backgroundaim {
+  position: fixed;
+  background-image:url('../style/imgs/howSebenzaWorks1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1900px; 
+  height: 1000px;
+}
+
+.nation {
+  position: relative;
+  margin-top: 50px;
+}
+
+.yellowperson {
+  position: relative;
+  margin-top: 300px;
+}
+
+.aim{
+  position: relative;
+  margin-top: 50px;
+}
+
+
+/* .vision {
+  background-image:url('../style/imgs/Vision1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+}
+ */
+
+
+/* form {
+}
+input,
+textarea {
+ 
+  
+  box-sizing: border-box;
+  border: 1px solid #E8A187;
+  border-radius: 2.5px;
+}
+input,
+label {
+  display: block;
+}
+
+.form-group,
+.form-control {
+  
+  
+}
+
+.form-control,
+.form-group {
+ 
+  font-size: 20px;
+  color: #B86B77;
+} */
